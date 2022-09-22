@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+  <hr>
+  <p>My frictional address : <strong>Varanasi</strong></p>
+  <p>My contact number : <strong>7233989998</strong></p>
+  <p>M email adddress : <strong>rajeshwar.singh.programmer@gmail.com</strong></p>
+  <table cellpadding="10px">
+
+
+    <form action="mailto:rajeshwar.singh.programmer@gmail.com" method="post" enctype="text/plain">
+
+      <!--Name-->
+      <tr>
+        <td>
+          <label>Name : </label>
+        </td>
+        <td><input type="text" name="Full-Name" placeholder="Full Name"></td>
+      </tr>
+
+      <!--Organisation-->
+
+      <tr>
+        <td><label for="org">Organisation : </label></td>
+        <td><select class="org" name="Organisation">
+            <option value="">Please choose an option</option>
+            <option value="MMMUT">MMMUT</option>
+            <option value="IIM">IIM</option>
+            <option value="LPU">LPU</option>
+            <option value="CU">CU</option>
+            <option value="IET">IET</option>
+          </select></td>
+      </tr>
+
+      <!--Dob-->
+      <tr>
+        <td><label for="dob">Date-of-Birth</label></td>
+        <td><input type="date" id="dob" name="Date-of-Birth"></td>
+      </tr>
+
+      <!-- City -->
+      <tr>
+        <td>
+          <label for="choose-city">City : </label>
+        </td>
+        <td>
+          <input list="city-name" id="choose-city" name="City-Name" placeholder="Bilaspur">
+          <datalist id="city-name">
+            <option name="Lucknow" value="Lucknow">Lucknow</option>
+            <option name="Bihar" value="Bihar">Bihar</option>
+            <option name="Varanasi" value="Varanasi">Varanasi</option>
+            <option name="Gorakhpur" value="Gorakhpur">Gorakhpur</option>
+          </datalist>
+        </td>
+      </tr>
+
+      <!--Skills-->
+      <tr>
+        <td><label>Skills : </label></td>
+        <td>
+          <fieldset>
+            <legend>Choose Your Favourite Progamming Language</legend>
+              <table>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="C++" name="C++">
+                  </td>
+                  <td>
+                    <label for="C++"> C++</label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="Python" name="Python">
+                  </td>
+                  <td>
+                    <label for="Python">Python</label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="Java" name="Java">
+                  </td>
+                  <td>
+                    <label for="Java">Java</label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="Javascript" name="Javascript">
+                  </td>
+                  <td>
+                    <label for="Javascript">Javascript</label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="html" id="html">
+                  </td>
+                  <td>
+                    <label for="html">HTML</label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="checkbox" id="css" name="css">
+                  </td>
+                  <td>
+                    <label for="css">CSS</label>
+                  </td>
+                </tr>
+
+
+              </table>
+          </fieldset>
+        </td>
+      </tr>
+
+      <!--Tell about ypurself-->
+      <tr>
+        <td>Tell me about yourself : </td>
+        <td><textarea name="about" rows="8" cols="80" name="About-Yourself" placeholder="Write about Yourself!!"></textarea></td>
+      </tr>
+
+      <!--Resume-->
+      <tr>
+        <td>Resume : </td>
+        <td><input type="file" name="Resume"></td>
+      </tr>
+
+      <!--Submit-->
+      <tr>
+        <td><input type="submit" name="response" value="Submit"></td>
+      </tr>
+
+
+  </table>
+
+  </form>
+</body>
+
+</html>
